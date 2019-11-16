@@ -21,7 +21,7 @@ public class BodyPart extends JPanel{
 		
 	}
 	public void draw(Graphics g) {
-		g.setColor(Color.YELLOW);
+		g.setColor(Color.BLACK);
 		g.fillRect(xCoor * width, yCoor * hieght, width, hieght);
 	}
 	public int getxCoor() {
